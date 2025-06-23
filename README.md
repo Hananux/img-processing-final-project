@@ -32,3 +32,9 @@ If anything doesn’t work, make sure all the required libraries are installed
 -   matplotlib.pyplot: for displaying images and plots
 
 -   random: for selecting random pixels
+
+# problemes faces: 
+I started the project using colab and had to redo it on a different software to store it locally.
+
+When applying inverse log transform directly, the image appeared black cuz the values were out of range
+so I scalled the imgs before expm1 to avoid that
